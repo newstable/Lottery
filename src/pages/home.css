@@ -1,0 +1,582 @@
+.back-1 {
+    background-image: url("../assets/back-1.png");
+    background-size: cover;
+}
+
+.main-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.borderTop {
+    border-top: 1px solid #3e3a2d;
+}
+
+.section1 {
+    margin: 180px 0px !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lottery_Name1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0
+}
+
+.small_head1 {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.ticketStyledButton {
+    background-color: #a48957;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.ticketStyledButton:hover {
+    cursor: pointer;
+    background-color: #c69b4c;
+    color: white;
+}
+
+.ticketStyledButton1 {
+    background-color: #a48957;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    transition: 0.2s;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+.ticketStyledButton1:hover {
+    cursor: pointer;
+    background-color: #a48957;
+    color: white;
+}
+
+.ticketStyledButton3 {
+    background-color: #a48957;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+.ticketStyledButton3:hover {
+    cursor: pointer;
+    background-color: #c69b4c;
+    color: white;
+}
+
+.modal-card1 {
+    width: 350px;
+    position: inherit;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.lucky-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.x-font2-white {
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.ticket-number {
+    text-align: center;
+    color: #a48957 !important;
+    background-color: #ffffff30 !important;
+}
+
+.x-font3-yellow {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ReactModal__Overlay {
+    background-color: rgba(131, 132, 192, 0.3) !important;
+    text-align: center;
+    align-items: center;
+}
+
+.MuiInputBase-input {
+    font-size: 20px !important;
+    font-weight: bold;
+    border-radius: 5px !important;
+    background-color: rgb(204, 204, 204) !important;
+    color: #d09d3f !important;
+    height: 100%;
+    text-align: center;
+}
+
+.space-3 {
+    margin-top: 20px;
+}
+
+.section2 {
+    margin: 150px 0px 100px;
+}
+
+.section2 .first {
+    display: block;
+    background-image: url("../assets/img/icicb-circle.png");
+    background-size: 330px;
+    background-repeat: no-repeat;
+    padding: 145px 0 145px 100px;
+}
+
+.texts {
+    font-size: 20px;
+    display: flex;
+}
+
+.ticketOut {
+    border: 1px solid #a48957;
+    border-radius: 10px;
+    padding: 45px;
+}
+
+.ticketTime {
+    color: #a48957 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.x-font3-white {
+    color: white !important;
+    font-size: 18px;
+}
+
+.ticketSlider {
+    border: 1px solid #535353;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.sliderPercent {
+    background-color: #a48957;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.Pot {
+    margin-top: 100px;
+    border-bottom: 1px solid #3e3a2d;
+}
+
+.RoundPotCard {
+    background-image: url("../assets/img/coins.png");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 0px 4.6% 40px 2.5%;
+    max-width: 600px;
+}
+
+.RoundPotCard .title {
+    padding: 10px;
+    border-bottom: 1px solid #a48957;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+.RoundPotCard .body {
+    margin: 5px;
+    background-color: #26231d;
+    padding: 16px 45px 16px 20px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.howto {
+    padding: 100px 8.3333% 0px;
+}
+
+.howto .item {
+    color: white;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #3e3a2d;
+}
+
+.howto .item-1 {
+    background-image: url("../assets/img/ticket.png");
+    background-repeat: no-repeat;
+    max-width: 230px;
+    height: 180px;
+    margin: auto;
+    background-size: 100%;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0px 0px;
+}
+
+.howto .item-2 {
+    background-image: url("../assets/img/select.png");
+    background-repeat: no-repeat;
+    max-width: 230px;
+    height: 180px;
+    margin: auto;
+    background-size: 100%;
+}
+
+.howto .item-3 {
+    background-image: url("../assets/img/match.png");
+    background-repeat: no-repeat;
+    max-width: 230px;
+    height: 180px;
+    margin: auto;
+    background-size: 100%;
+}
+
+.h-font-1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: fangsong;
+}
+
+.MuiInputBase-input {
+    background-color: transparent !important;
+}
+
+.buytickets {
+    margin-top: 50px;
+    background-image: url("../assets/img/buytickets.png");
+    background-size: 100%;
+    max-width: 600px;
+    background-repeat: no-repeat;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px 100px;
+}
+
+.h-font-2 {
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.x-font4-bold-white {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    border-bottom: 1px solid #151515;
+    padding-bottom: 10px;
+}
+
+.x-font4-bold-yellow {
+    color: white !important;
+    font-size: 20px;
+}
+
+.x-font2-red {
+    color: #d13737;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.ring-card {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+
+.ring-card-img1 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.ring-card-img1 img {
+    padding-left: 10px !important;
+}
+
+.ring-card span {
+    position: absolute;
+    font-size: 50px !important;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #a48957 !important
+}
+
+.item {
+    padding-top: 20px;
+}
+
+.text-left {
+    text-align: right;
+}
+
+.section6_div {
+    background-image: url("../assets/img/back-2.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.section6_div .title {
+    margin-top: 25%;
+    color: white;
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    padding: 40px;
+}
+
+/* footer */
+.footer-img {
+    margin: 50px 0 80px;
+    width: 100px;
+}
+
+.footer-header {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-font {
+    font-size: 18px;
+    color: white;
+    margin: 3px 0;
+}
+
+.footer-bottom {
+    color: white;
+    font-size: 25px;
+    font-weight: 1000;
+    margin: 70px 0 40px;
+}
+
+.footer-icon {
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 30px;
+    margin: 0 4px;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.totalPot {
+    display: inline;
+}
+
+.totalpot-font {
+    font-size: 40px;
+    color: white;
+}
+
+.totalpot-font1 {
+    color: #aeadab;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: monospace;
+}
+
+.money {
+    background-image: url("../assets/img/money-box.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+@media (max-width:960px) {
+    .section2 .first {
+        background-image: none;
+        padding: 0px;
+    }
+
+    .texts {
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+
+    .ticketOut {
+        max-width: 450px !important;
+    }
+
+    .totalPot {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .totalpot-font {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .totalpot-font1 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .money {
+        display: none;
+    }
+
+    .RoundPotCard {
+        max-width: none;
+    }
+
+    .RoundPotCard .title {
+        font-size: 20px;
+    }
+
+    .ring-card span {
+        font-size: 30px !important;
+        position: absolute;
+        top: 40%;
+        left: 57%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width:800px) {
+    .totalpot-font {
+        font-size: 25px;
+    }
+
+    .totalpot-font1 {
+        font-size: 25px;
+    }
+
+    .ticketStyledButton {
+        padding: 6px !important;
+        font-size: 14px !important;
+    }
+
+    .x-font4-bold-white {
+        font-size: 12px;
+    }
+
+    .section2 .first {
+        display: none !important;
+    }
+
+    .ring-card {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 22%;
+    }
+
+    .ring-card img {
+        width: 120%;
+    }
+
+    .ring-card-img1 {
+        width: 84%;
+    }
+
+    .ring-card span {
+        font-size: 25px !important;
+        position: absolute;
+        top: 40%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer_link_div {
+        display: block;
+    }
+
+    .footer_link_div .footer_link {
+        border: none !important;
+        margin-bottom: 10px;
+    }
+}
+
+.img-1 {
+    background-image: url("../assets/img/icicb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    margin: 0px 0px;
+}
+
+@media (max-width:900px) {
+    .lottery_Name1 {
+        font-size: 35px;
+    }
+
+    .img-1 {
+        width: 300px;
+        height: 300px;
+        margin: 100px 0px;
+    }
+}
+
+@media (max-width:600px) {
+    .lottery_Name1 {
+        font-size: 25px;
+    }
+
+    .section1 {
+        margin-bottom: 30px !important;
+    }
+
+    .img-1 {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .ring-card span {
+        font-size: 17px !important;
+        position: absolute;
+        top: 40%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+    }
+}

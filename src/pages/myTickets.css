@@ -1,0 +1,224 @@
+.back-3 {
+    background-image: url("../assets/img/back.png");
+}
+
+.bigwin-card {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+
+    animation-name: my-animation;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.bigwin-card-img {
+    position: relative;
+    width: 650px;
+    height: 400px;
+    margin: auto
+}
+
+.x-font2-yellow {
+    color: white;
+}
+
+.bigwin-card span {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.win-info-card {
+    margin-top: 50px !important;
+    text-align: center;
+    align-items: center;
+}
+
+.x-font1-yellow {
+    letter-spacing: 0.12em;
+    color: #d13737 !important;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.x-font2-red {
+    color: #d13737;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.x-font2-white {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.space-2 {
+    margin-top: 80px;
+}
+
+.space {
+    margin-top: 200px;
+}
+
+.RoundInfoCard {
+    width: 100% !important;
+    /* background-color:#0f1544!important; */
+    border-radius: 10px;
+    align-items: left;
+}
+
+.RoundInfoCard .title {
+    padding: 0px !important;
+    border-radius: 10px;
+    width: 100% !important;
+}
+
+.RoundInfoCard-header1 {
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(209, 55, 55, 0.966) !important;
+}
+
+.RoundInfoCard-header2 {
+    border-radius: 0px 10px 10px 0px;
+    padding: 40px;
+    background-color: rgba(175, 151, 16, 0.966) !important;
+}
+
+.RoundInfoCard .body {
+    padding: 40px;
+}
+
+.k-listview {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.x-font3-red {
+    /* color: #d13737; */
+    color: #bea168;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.x-font3-yellow {
+    color: #bea168 !important;
+}
+
+.k-pager-wrap {
+    /* color:rgb(184, 35, 35)!important; */
+    color: white !important;
+
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    margin-top: 10px
+}
+
+.claim-button-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.claim-button {
+    background-color: #a48957;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.k-listview-header {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+}
+
+.k-pager-numbers .k-link.k-state-selected {
+    color: #bea168 !important;
+    background-color: #6e624a85 !important;
+}
+
+.k-pager-numbers .k-link {
+    color: #bea168 !important;
+}
+
+.space-line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.claim-button:hover {
+    cursor: pointer;
+    background-color: #caa052;
+    color: white;
+    display: absolute;
+    right: 0;
+}
+
+.x-font3-white {
+    color: white !important;
+    font-size: 20px;
+}
+
+.x-font4-yellow {
+    color: #bea168 !important;
+    font-size: 20px;
+}
+
+.x-font4-white {
+    color: #bea168 !important;
+    font-size: 20px;
+}
+
+
+@keyframes my-animation {
+    from {
+        transition: translate(0px, -10px)
+    }
+
+    to {
+        transform: translate(0px, 20px);
+    }
+}
+
+@media (max-width:800px) {
+    .x-font3-yellow {
+        /* color: #d13737!important; */
+        color: #bea168 !important;
+
+        font-size: 12px;
+    }
+
+    .x-font3-white {
+        color: white !important;
+        font-size: 18px;
+    }
+}

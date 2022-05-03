@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'bwmodel';
+  src: url('./font/BwModelicaSS01-Regular.otf');
+}
+
+body {
+  margin: 0;
+  background-image: url("./assets//img/back.png");
+  font-family: bwmodel;
+  z-index: 0;
+}
+
+iframe {
+  z-index: -9999 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
